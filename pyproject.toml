@@ -1,0 +1,13 @@
+[project]
+name = "pdf-parser"
+version = "0.1.0"
+description = "Extract metadata, text, tables, and images from PDF files"
+requires-python = ">=3.10"
+dependencies = [
+    "PyMuPDF>=1.27.1",
+    "pymupdf-layout>=1.27.1",
+    "pymupdf4llm>=0.3.4",
+    "pytesseract>=0.3.13",
+    "Pillow>=12.1.1",
+    "markdown>=3.10.2",
+]
